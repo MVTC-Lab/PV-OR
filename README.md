@@ -6,8 +6,8 @@ This repository provides the reference implementation for **PV-Orchestrator**
 
 **Key ideas**
 - **Frozen LLM backbone** with lightweight adaptation (<P-Tuning / Prompt / Reprogramming>).
-- **<MoE / Environmental Transformer Branch>** for condition-aware routing.
-- **<Wavelet / multi-scale / physics-aware constraints>** to improve robustness under distribution shifts.
+- **MoE** for condition-aware routing.
+- **Environmental Transformer Branch** to improve robustness under distribution shifts.
 
 > Model architecture figure: see
 > ![`figures/model_framwork.png`](figures/model_framwork.png)
@@ -16,10 +16,9 @@ This repository provides the reference implementation for **PV-Orchestrator**
 
 ## ✨ Features
 - Reproducible training & evaluation scripts
-- Multi-dataset support (plug-and-play)
+- Multi-dataset support
 - Parameter-efficient adaptation (no full fine-tuning)
 - Logging with <TensorBoard/W&B> and checkpointing
-
 ---
 
 ## Environment Setup (uv / conda)
@@ -60,6 +59,7 @@ conda activate <env_name>
 pip install -U pip
 pip install -e .
 ```
+
 
 
 
