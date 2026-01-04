@@ -17,7 +17,7 @@ This repository provides the reference implementation for **<your method name>**
 - **<MoE / Environmental Transformer Branch>** for condition-aware routing.
 - **<Wavelet / multi-scale / physics-aware constraints>** to improve robustness under distribution shifts.
 
-> Model architecture figure: see [`figures/model_framework.png`](figures/model_framework.png)
+> Model architecture figure: see [`figures/model_framwork.png`](figures/model_framwork.png)
 
 ---
 
@@ -28,5 +28,6 @@ This repository provides the reference implementation for **<your method name>**
 - Logging with <TensorBoard/W&B> and checkpointing
 
 ---
+
 
 
